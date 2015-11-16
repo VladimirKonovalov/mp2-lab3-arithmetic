@@ -41,7 +41,7 @@ void TArithmetic::SplitIntoTokens()
 	{
 		if (((char)aStr[i]>=48)&&((char)aStr[i]<=57))
 			{
-				while ((i < aStr.length())&&((char)aStr[i]>=48)&&((char)aStr[i]<=57))
+				while ((i < aStr.length())&&((((char)aStr[i]>=48)&&((char)aStr[i]<=57))||((char)aStr[i]==46)))
 				{
 					temp = temp + aStr[i];
 					i++;
@@ -55,40 +55,40 @@ void TArithmetic::SplitIntoTokens()
 				temp = temp + aStr[i] + " ";
 			}
 			else
-		switch (aStr[i])
-		{
-		case (char)40:									// (
-		{
-			temp = temp + aStr[i] + " ";
-			break;
-		}
-		case (char)41:									// )
-		{
-			temp = temp + aStr[i] + " ";
-			break;
-		}
-		case (char)42:									// * 
-		{
-			temp = temp + aStr[i] + " ";
-			break;
-		}
-		case (char)43:									// + 
-		{
-			temp = temp + aStr[i] + " ";
-			break;
-		}
-		case (char)45:									// - 
-		{
-			temp = temp + aStr[i] + " ";
-			break;
-		}
-		case (char)47:									// / 
-		{
-			temp = temp + aStr[i] + " ";
-			break;
-		}
-		default:
-			break;
+			switch (aStr[i])
+			{
+			case (char)40:									// (
+			{
+				temp = temp + aStr[i] + " ";
+				break;
+			}
+			case (char)41:									// )
+			{
+				temp = temp + aStr[i] + " ";
+				break;
+			}
+			case (char)42:									// * 
+			{
+				temp = temp + aStr[i] + " ";
+				break;
+			}
+			case (char)43:									// + 
+			{
+				temp = temp + aStr[i] + " ";
+				break;
+			}
+			case (char)45:									// - 
+			{
+				temp = temp + aStr[i] + " ";
+				break;
+			}
+			case (char)47:									// / 
+			{
+				temp = temp + aStr[i] + " ";
+				break;
+			}
+			default:
+				break;
 		} 
 		i++;
 	}

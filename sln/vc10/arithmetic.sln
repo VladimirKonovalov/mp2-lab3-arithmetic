@@ -1,24 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest\gtest.vcproj", "{60932AFC-7808-48B7-B3BF-F2BC151C0065}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest\gtest.vcxproj", "{60932AFC-7808-48B7-B3BF-F2BC151C0065}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stack", "stack\stack.vcproj", "{A76282B3-4276-4945-9AF2-3AC68111A828}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stack", "stack\stack.vcxproj", "{A76282B3-4276-4945-9AF2-3AC68111A828}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcproj", "{C650C93E-F0A7-4235-9F5F-0DCE78609BFB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{26F83C30-0E87-4474-8F0F-EAB7CF3D97C4} = {26F83C30-0E87-4474-8F0F-EAB7CF3D97C4}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{C650C93E-F0A7-4235-9F5F-0DCE78609BFB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "sample\sample.vcproj", "{5D0218F2-E502-414F-BA66-9E76B2785178}"
-	ProjectSection(ProjectDependencies) = postProject
-		{26F83C30-0E87-4474-8F0F-EAB7CF3D97C4} = {26F83C30-0E87-4474-8F0F-EAB7CF3D97C4}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "sample\sample.vcxproj", "{5D0218F2-E502-414F-BA66-9E76B2785178}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arithmetic", "arithmetic\arithmetic.vcproj", "{26F83C30-0E87-4474-8F0F-EAB7CF3D97C4}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A76282B3-4276-4945-9AF2-3AC68111A828} = {A76282B3-4276-4945-9AF2-3AC68111A828}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arithmetic", "arithmetic\arithmetic.vcxproj", "{26F83C30-0E87-4474-8F0F-EAB7CF3D97C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
